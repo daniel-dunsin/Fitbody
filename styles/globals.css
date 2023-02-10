@@ -31,3 +31,11 @@ a {
 p {
   color: var(--heading-color);
 }
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
