@@ -54,7 +54,7 @@ const Header = () => {
             }}
           >
             <span className={css.closeIcon}>
-              <Hamburger size={24} toggle={setNavIsOpen} toggled={navIsOpen} />
+              <Hamburger size={24} toggle={setNavIsOpen} toggled={true} />
             </span>
             {navLinks.map((link, index) => {
               return (
@@ -68,7 +68,7 @@ const Header = () => {
         <div className={css.navRight}>
           <Button text={"Register"} />
           <div className={css.menuContainer}>
-            <Hamburger size={24} toggle={setNavIsOpen} toggled={navIsOpen} />
+            <Hamburger size={24} toggle={setNavIsOpen} toggled={false} />
           </div>
         </div>
       </header>

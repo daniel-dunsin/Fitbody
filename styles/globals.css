@@ -4,6 +4,8 @@
 }
 :root {
   --primary-color: #6f55f2;
+  --primary-color-2: #b5a9f3;
+  --primary-color-3: #d3cef2;
   --heading-color: #132742;
   --bg-gradient: linear-gradient(
     90deg,
@@ -38,4 +40,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+}
+.highlight {
+  color: var(--primary-color);
 }
