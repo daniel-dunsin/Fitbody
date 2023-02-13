@@ -1,0 +1,31 @@
+.featuresContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 1rem;
+  padding: 4rem 2.4rem;
+  background: var(--bg-gradient);
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .featuresContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .featuresContainer {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .featuresContainer {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+}

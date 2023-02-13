@@ -1,5 +1,7 @@
+import Features from "@/components/sections/Features";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
+import Trainer from "@/components/sections/Trainer";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -15,6 +17,8 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
+        <Features />
+        <Trainer />
       </main>
     </>
   );
