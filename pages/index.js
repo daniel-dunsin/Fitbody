@@ -1,11 +1,18 @@
 import Features from "@/components/sections/Features";
+import Footer from "@/components/sections/Footer";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
+import Testimonials from "@/components/sections/Testimonials";
 import Trainer from "@/components/sections/Trainer";
 import Head from "next/head";
 import Image from "next/image";
+import React from "react";
+import Aos from "aos";
 
 export default function Home() {
+  React.useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <Head>
@@ -19,6 +26,8 @@ export default function Home() {
         <Hero />
         <Features />
         <Trainer />
+        <Testimonials />
+        <Footer />
       </main>
     </>
   );

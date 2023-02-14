@@ -24,7 +24,9 @@ html {
 }
 body {
   width: 100%;
+  overflow-x: hidden;
   min-height: 100vh;
+  z-index: 0;
 }
 a {
   all: unset;

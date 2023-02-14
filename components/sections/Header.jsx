@@ -26,7 +26,7 @@ const navLinks = [
 const Header = () => {
   const [navIsOpen, setNavIsOpen] = useState(false);
   return (
-    <section className="container">
+    <section className={css.navbar}>
       <header className={css.navWrapper}>
         <div className={css.navLogoContainer}>
           {/* image container */}

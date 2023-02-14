@@ -6,7 +6,11 @@ const Trainer = () => {
   return (
     <section className="container">
       <div className={css.trainerContainer}>
-        <div className={css.trainerImageContainer}>
+        <div
+          className={css.trainerImageContainer}
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <Image
             src="/img/trainer.png"
             alt="trainer"
@@ -15,7 +19,11 @@ const Trainer = () => {
             loading="lazy"
           />
         </div>
-        <div className={css.trainerContent}>
+        <div
+          className={css.trainerContent}
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <h1>
             Ready to make a <span className="highlight">change?</span>
           </h1>

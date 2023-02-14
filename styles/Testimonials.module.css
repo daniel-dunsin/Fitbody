@@ -1,0 +1,50 @@
+.testimonialSwiperContainer {
+  max-width: 400px;
+  margin: 2rem auto 1rem;
+  background-color: white;
+}
+.singleTestimonial {
+  width: 90vw;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.testimonialImageContainer {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonialImageContainer * {
+  margin: auto;
+}
+
+.testimonialContent {
+  padding: 1rem 1.5rem;
+}
+.testimonialContent h1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.testimonialContent p {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .testimonialSwiperContainer {
+    max-width: 76vw;
+    width: 76vw;
+  }
+  .testimonialContent p {
+    font-size: 0.85rem;
+  }
+  .testimonialImageContainer {
+    height: 260px;
+  }
+}

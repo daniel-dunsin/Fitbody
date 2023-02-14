@@ -3,7 +3,11 @@ import React from "react";
 import css from "../../styles/FeaturesCard.module.css";
 const FeaturesCard = ({ title, subtitle, image }) => {
   return (
-    <article className={css.featureCardContainer}>
+    <article
+      className={css.featureCardContainer}
+      data-aos="zoom-in"
+      data-aos-duration="1200"
+    >
       <div className={css.featureImageContainer}>
         <Image alt={title} src={"/img/" + image} width="40" height="40" />
       </div>
